@@ -19,6 +19,11 @@
 
 TARGET_OTA_ASSERT_DEVICE := g3,ls990
 
+# Bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/lge/ls990/bluetooth/vnd_g3.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/ls990/bluetooth
+BOARD_HAVE_BLUETOOTH_BCM := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_ls990_defconfig
 
@@ -27,6 +32,18 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2692743168
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 27325360128
+
+# Wifi
+BOARD_WLAN_DEVICE := bcmdhd
+WPA_SUPPLICANT_VERSION := VER_0_8_X
+BOARD_WPA_SUPPLICANT_DRIVER := NL80211
+BOARD_HOSTAPD_DRIVER := NL80211
+BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
+BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
+WIFI_DRIVER_FW_PATH_AP := "/system/etc/firmware/fw_bcmdhd_apsta.bin"
+WIFI_DRIVER_FW_PATH_P2P := "/system/etc/firmware/fw_bcmdhd.bin"
+WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/bcmdhd/parameters/firmware_path"
+WIFI_DRIVER_FW_PATH_STA := "/system/etc/firmware/fw_bcmdhd.bin"
 
 # inherit from the proprietary version
 -include vendor/lge/ls990/BoardConfigVendor.mk
