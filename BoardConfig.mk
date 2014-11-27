@@ -26,6 +26,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_ls990_defconfig
+TARGET_REQUIRES_BUMP := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
