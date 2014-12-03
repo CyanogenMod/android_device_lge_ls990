@@ -3,6 +3,15 @@ bin/BCM4335_003.001.009.0025.0000_LGIT_TWCS-B221D_TESTONLY.hcd:etc/firmware/BCM4
 bin/BCM4339_003.001.009.0061.0313_FM_I2S.hcd:etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd
 bin/BCM4339_003.001.009.0061.0312.hcd:etc/firmware/BCM4339_003.001.009.0061.0312.hcd
 
+# NFC
+lib/libnfc_ndef.so
+lib/libnfc_ndef-nxp.so
+lib/libnfc13_ndef.so
+lib/libnfc13-nxp.so
+lib/libnfc-nxp.so
+lib/hw/nfc_lg.default.so
+vendor/firmware/libpn544_fw.so
+
 # GPS
 bin/gsiff_daemon
 bin/location-mq
