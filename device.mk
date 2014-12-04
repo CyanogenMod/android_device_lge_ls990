@@ -37,5 +37,9 @@ PRODUCT_PACKAGES += \
 # Get BCMDHD configs
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
+# NFC packages
+PRODUCT_PACKAGES += \
+    nfc_nci.bcm2079x.default
+
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)
