@@ -25,6 +25,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/ls990/bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive  # FIX THIS
 TARGET_KERNEL_CONFIG := cyanogenmod_ls990_defconfig
 TARGET_REQUIRES_BUMP := true
 
