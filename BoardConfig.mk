@@ -26,6 +26,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_ls990_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.8-14.04/bin/arm-linux-gnueabihf-
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
