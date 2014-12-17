@@ -1,4 +1,4 @@
-$(call inherit-product, device/lge/d851/full_d851.mk)
+$(call inherit-product, device/lge/d851/full_ls990.mk)
 $(call inherit-product, vendor/illusion/config/common_full_phone.mk)
 $(call inherit-product, vendor/illusion/config/nfc_enhanced.mk)
 
