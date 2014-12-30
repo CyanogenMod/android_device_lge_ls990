@@ -12,5 +12,6 @@ ro.ril.def.preferred.network=8
 ril.subscription.types=NV,RUIM
 persist.radio.no_wait_for_card=1
 keyguard.no_require_sim=true
+ro.telephony.get_imsi_from_sim=true
 telephony.sms.pseudo_multipart=1
 DEVICE_PROVISIONED=1
