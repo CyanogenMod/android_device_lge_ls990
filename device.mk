@@ -34,6 +34,13 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     libnetcmdiface
 
+# NFC packages
+PRODUCT_PACKAGES += \
+    nfc.default \
+    libnfc \
+    libnfc_jni \
+    Nfc
+
 # Get BCMDHD configs
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
