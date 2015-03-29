@@ -4,7 +4,7 @@ rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 
 # RIL
 ro.cdma.home.operator.numeric=311220
-ro.cdma.home.operator.alpha=U.S.Cellular
+ro.cdma.home.operator.alpha=U.S. Cellular
 telephony.lteOnCdmaDevice=1
 telephony.lte.cdma.device=1
 ro.telephony.default_network=8
