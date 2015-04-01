@@ -23,6 +23,6 @@
     <!-- CDMA Roaming Indicator Strings (non ERI)--> <skip />
     <!-- Default roaming indicator text -->
     <string name="roamingText0">Digital Roaming</string>
-    <string name="roamingText1">Sprint</string>
+    <string name="roamingText1">U.S. Cellular</string>
     <string name="roamingText2">Digital Roaming</string>
 </resources>
