@@ -42,7 +42,7 @@
 <EriInfo RoamingIndicator="1"
          IconIndex="1"
          IconMode="0"
-         EriText="Sprint"
+         EriText="U.S. Cellular"
          CallPromptId="0"
          AlertId="0"
          DataServiceSupport="1"/>
@@ -402,7 +402,7 @@
 <EriInfo RoamingIndicator="99"
          IconIndex="1"
          IconMode="0"
-         EriText="Sprint"
+         EriText="U.S. Cellular"
          CallPromptId="0"
          AlertId="0"
          DataServiceSupport="1"/>
@@ -594,7 +594,7 @@
 <EriInfo RoamingIndicator="123"
          IconIndex="1"
          IconMode="0"
-         EriText="Sprint"
+         EriText="U.S. Cellular"
          CallPromptId="0"
          AlertId="0"
          DataServiceSupport="1"/>
