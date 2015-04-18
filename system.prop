@@ -5,9 +5,6 @@ rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 # RIL
 ro.cdma.home.operator.alpha=U.S. Cellular
 ro.cdma.home.operator.numeric=311220
-gsm.operator.numeric=311580
-gsm.operator.iso-country=us
-gsm.operator.alpha=U.S. Cellular
 telephony.lteOnCdmaDevice=1
 telephony.lte.cdma.device=1
 ro.telephony.default_network=8
@@ -18,10 +15,3 @@ persist.radio.no_wait_for_card=1
 keyguard.no_require_sim=true
 telephony.sms.pseudo_multipart=1
 DEVICE_PROVISIONED=1
-ro.telephony.default_cdma_sub=0
-
-# Retry Timer (USCC, MetroPCS)
-ro.gsm.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
-
-# Default Data Roaming (USCC, LRA)
-ro.com.android.dataroaming=true
