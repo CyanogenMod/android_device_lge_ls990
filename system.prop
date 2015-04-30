@@ -3,8 +3,8 @@ rild.libargs=-d /dev/smd0
 rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 
 # RIL
-ro.cdma.home.operator.numeric=310000
-ro.cdma.home.operator.alpha=Sprint
+ro.cdma.home.operator.alpha=U.S. Cellular
+ro.cdma.home.operator.numeric=311220
 telephony.lteOnCdmaDevice=1
 telephony.lte.cdma.device=1
 ro.telephony.default_network=8

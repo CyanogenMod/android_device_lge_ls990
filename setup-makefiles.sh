@@ -3,5 +3,5 @@
 set -e
 
 export VENDOR=lge
-export DEVICE=ls990
+export DEVICE=us990
 ./../../$VENDOR/g3-common/setup-makefiles.sh $@
