@@ -3,7 +3,6 @@ etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd:system/etc/firmware/BCM
 etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd
 
 # GPS
-bin/gsiff_daemon
 bin/location-mq
 bin/quipc_igsn
 bin/quipc_main
