@@ -34,7 +34,7 @@
 <EriInfo RoamingIndicator="0"
          IconIndex="0"
          IconMode="0"
-         EriText="Domestic Roaming"
+         EriText="Sprint"
          CallPromptId="0"
          AlertId="0"
          DataServiceSupport="1"/>
@@ -42,7 +42,7 @@
 <EriInfo RoamingIndicator="1"
          IconIndex="1"
          IconMode="0"
-         EriText="Sprint"
+         EriText="Domestic Roaming"
          CallPromptId="0"
          AlertId="0"
          DataServiceSupport="1"/>
