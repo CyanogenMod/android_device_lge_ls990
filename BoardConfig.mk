@@ -40,7 +40,12 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_FSTAB := device/lge/ls990/rootdir/etc/fstab.g3
 
 # RIL
-BOARD_RIL_CLASS += ../../../device/lge/ls990/ril/
+#BOARD_RIL_CLASS += ../../../device/lge/ls990/ril/
+
+# RIL
+BOARD_GLOBAL_CFLAGS += -DUSE_RIL_VERSION_10
+BOARD_GLOBAL_CPPFLAGS += -DUSE_RIL_VERSION_10
+TARGET_RIL_VARIANT := caf
 
 # NFC
 BOARD_NFC_CHIPSET := pn544
