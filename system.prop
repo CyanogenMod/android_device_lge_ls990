@@ -15,3 +15,6 @@ persist.radio.no_wait_for_card=1
 keyguard.no_require_sim=true
 telephony.sms.pseudo_multipart=1
 DEVICE_PROVISIONED=1
+
+# Bluetooth
+qcom.bluetooth.soc=rome
