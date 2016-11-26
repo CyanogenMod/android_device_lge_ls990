@@ -44,6 +44,7 @@ BOARD_RIL_CLASS += ../../../device/lge/ls990/ril/
 
 # NFC
 BOARD_NFC_CHIPSET := pn544
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
