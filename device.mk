@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
 
 # NFC packages
 PRODUCT_PACKAGES += \
-    nfc.default \
+    nfc.msm8974 \
     libnfc \
     libnfc_jni \
     Nfc
