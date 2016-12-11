@@ -71,3 +71,6 @@ etc/firmware/fw_bcmdhd_mfg.bin
 etc/wifi/bcmdhd.cal
 etc/wifi/bcmdhd_lgit.cal
 etc/wifi/bcmdhd_murata.cal
+
+#nfc
+vendor/firmware/libpn544_fw.so
